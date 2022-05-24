@@ -1,38 +1,26 @@
-body {
+html,
+body,
+#map-id{
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 
-#mapid,
-body,
-html {
-  height: 100%;
-}
-
-.leaflet-popup-content {
-  text-align: center;
-}
-
 .legend {
-  padding: 6px 8px;
-  font: 12px Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  padding: 10px;
+  line-height: 20px;
   color: #555;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.8);
+  background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.legend ul {
-  padding: 0px;
-  margin: 0px;
-  clear: both;
-  list-style-type: none;
+.legend i {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
-
-.legend li {
-  display: inline-block;
   width: 60px;
   height: 70px;
   text-align: center;
