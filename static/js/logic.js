@@ -44,7 +44,6 @@ var mapOverlays = {};
     \   \       |  |      /  /_\  \   |      /        |  |     
 .----)   |      |  |     /  _____  \  |  |\  \----.   |  |     
 |_______/       |__|    /__/     \__\ | _| `._____|   |__| 
-
 */													   
 // this essentially starts the logic.js;
 // this iterates thru the overlay settings, calling the endpoints to load
